@@ -387,13 +387,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (message-cited-text                        (:inherit 'font-lock-comment-face))
      (message-mml                               (:foreground gruvbox-faded_green :weight 'bold))
 
-     ;;; org-mode
-
-     (org-hide                                  (:foreground gruvbox-dark0))
-     (org-level-1                               (:foreground gruvbox-bright_blue))
-     (org-level-2                               (:foreground gruvbox-bright_yellow))
-     (org-level-3                               (:foreground gruvbox-bright_purple))
-     (org-level-4                               (:foreground gruvbox-bright_red))
+     ;; org-mode
+     (org-hide                                  (:foreground gruvbox-bg))
+     (org-level-1                               (:foreground gruvbox-bright_blue :height 1.2))
+     (org-level-2                               (:foreground gruvbox-bright_yellow :height 1.15))
+     (org-level-3                               (:foreground gruvbox-bright_purple :height 1.1))
+     (org-level-4                               (:foreground gruvbox-bright_red :height 1.05))
      (org-level-5                               (:foreground gruvbox-bright_green))
      (org-level-6                               (:foreground gruvbox-bright_aqua))
      (org-level-7                               (:foreground gruvbox-faded_blue))
