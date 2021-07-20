@@ -389,8 +389,8 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; org-mode
      (org-hide                                  (:foreground gruvbox-bg))
-     (org-level-1                               (:foreground gruvbox-bright_blue :height 1.2))
-     (org-level-2                               (:foreground gruvbox-bright_yellow :height 1.15))
+     (org-level-1                               (:foreground gruvbox-bright_blue :height 1.2 :overline t))
+     (org-level-2                               (:foreground gruvbox-bright_yellow :height 1.15 :overline t))
      (org-level-3                               (:foreground gruvbox-bright_purple :height 1.1))
      (org-level-4                               (:foreground gruvbox-bright_red :height 1.05))
      (org-level-5                               (:foreground gruvbox-bright_green))
