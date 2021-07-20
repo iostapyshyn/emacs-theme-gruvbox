@@ -430,6 +430,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (org-deadline-announce                     (:foreground gruvbox-faded_red))
      (org-time-grid                             (:foreground gruvbox-faded_orange))
      (org-latex-and-related                     (:foreground gruvbox-bright_blue))
+     (org-mode-line-clock                       (:inherit nil))
 
      ;;; org-habit
 
