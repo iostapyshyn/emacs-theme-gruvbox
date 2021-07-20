@@ -112,7 +112,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      (font-lock-builtin-face                            (:foreground gruvbox-bright_orange))
      (font-lock-constant-face                           (:foreground gruvbox-bright_purple))
-     (font-lock-comment-face                            (:foreground gruvbox-dark4 :italic t))
+     (font-lock-comment-face                            (:foreground gruvbox-light4 :italic t))
      (font-lock-function-name-face                      (:foreground gruvbox-bright_yellow))
      (font-lock-keyword-face                            (:foreground gruvbox-bright_red :bold ,(if gruvbox-bold-constructs t nil)))
      (font-lock-string-face                             (:foreground gruvbox-bright_green))
